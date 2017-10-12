@@ -11,12 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171012010037) do
-
-  create_table "users", force: :cascade do |t|
-    t.string "usernmae"
-    t.string "password"
-    t.float  "balance"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
