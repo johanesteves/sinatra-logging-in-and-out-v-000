@@ -8,7 +8,6 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
     @user1 = User.create(:username => "skittles123", :password => "iluvskittles", :balance => 1000)
-
     erb :index
   end
 
